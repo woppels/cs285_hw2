@@ -137,6 +137,7 @@ public class Question2 {
 		// First randomly generate key
 		KeyGenerator keyGen = KeyGenerator.getInstance("AES");
 		keyGen.init(new SecureRandom());
+		//keyGen.init(256);
 		key = keyGen.generateKey();
 		
 		// Setup the cipher
