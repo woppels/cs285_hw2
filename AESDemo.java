@@ -1,3 +1,5 @@
+// Note: This example was taken from another site and was used to understand how AES with Unlimited worked. 
+
 package com.example;
 
 import java.security.AlgorithmParameters;
